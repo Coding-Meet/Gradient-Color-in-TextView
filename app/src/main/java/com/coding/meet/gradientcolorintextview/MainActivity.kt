@@ -23,5 +23,9 @@ class MainActivity : AppCompatActivity() {
                 Color.parseColor("#FF9800"),
             ), null,Shader.TileMode.REPEAT
         )
+
+
+        val marqueeTextView = findViewById<TextView>(R.id.marqueeTextView)
+        marqueeTextView.isSelected = true
     }
 }
